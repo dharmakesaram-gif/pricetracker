@@ -1,0 +1,20 @@
+{
+  "name": "price-tracker-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.4.3",
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.3",
+    "node-cron": "^3.0.3",
+    "node-fetch": "^2.7.0",
+    "nodemailer": "^6.9.12",
+    "puppeteer-core": "^22.4.1",
+    "@sparticuz/chromium": "^123.0.1"
+  }
+}
